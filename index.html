@@ -1,0 +1,138 @@
+
+<html>
+    <head>
+        <title>MobileNet and Wolfram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <ol>
+            <center>
+                <div class="col-xs-12 header_div">
+                    <h2> Case study project between MobileNet and Microsoft Azure</h2>
+                </div>
+
+                <div id= "div1" class="col-sm-6 col-xs-12 main_div">
+                    <li id="list">
+                        <b><u>Image 1 -  </u></b>
+                        <img id= "img" src="water bottle.png" class="normal_img">
+                    </li>
+                    
+                    <h4>Output of <b> MICROSOFT AZURE </b>
+                        <span id="wolfram"> MICROSOFT AZURE - vial</span>
+                    </h4>
+
+                    <h4>Output of <b>MobileNet</b>
+                        <span id="MobileNet"> MOBILENET - Water bottle</span>
+                    </h4>
+
+                    <div class="result">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4 id= "face1">MobileNet is more accurate</h4>
+                    </div>
+                </div>
+
+                <div id= "div2" class="col-sm-6 col-xs-12 main_div">
+                    <li id="list">
+                        <b><u>Image 2 - </u></b>
+                        <img id= "img2" src="boots.jpg" class="normal_img">
+                    </li>
+                    
+                    <h4>Output of <b> MICROSOFT AZURE </b>
+                        <span id="wolfram"> microsoft azure - bulcher</span>
+                    </h4>
+
+                    <h4>Output of <b>MobileNet</b>
+                        <span id="MobileNet">MobileNet - loafer shoes</span>
+                    </h4>
+
+                    <div class="result">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4 id= "face2">MobileNet is more accurate</h4>
+                    </div>
+                </div>
+
+                <div id= "div3" class="col-sm-6 col-xs-12 main_div">
+                    <li id="list">
+                        <b><u>Image 3 - </u></b>
+                        <img id= "img3" src = "laptop.jpg" class="special_img">
+                    </li>
+                    
+                    <h4>Output of <b> MICROSOFT AZURE </b>
+                        <span id="wolfram"> Microsoft Azure - flat panel display</span>
+                    </h4>
+
+                    <h4>Output of <b>MobileNet</b>
+                        <span id="MobileNet">MobileNet - laptop</span>
+                    </h4>
+
+                    <div class="result">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4 id= "face3">MobileNet is more accurate</h4>
+                    </div>
+                </div>
+
+                <div id= "div4" class="col-sm-6 col-xs-12 main_div">
+                    <li id="list">
+                        <b><u>Image 4 - </u></b>
+                        <img id= "img4" src="xbox series x.jpg" class="special_img">
+                    </li>
+                    
+                    <h4>Output of <b> MICROSOFT AZURE </b>
+                        <span id="wolfram"> Microsoft Azure - nintendo switch</span>
+                    </h4>
+
+                    <h4>Output of <b>MobileNet</b>
+                        <span id="MobileNet">MobileNet - strainer</span>
+                    </h4>
+
+                    <div class="result">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4 id= "face4">Both are in-accurate</h4>
+                    </div>
+                </div>
+
+                <div id= "div5" class="col-sm-6 col-xs-12 main_div">
+                    <li id="list">
+                        <b><u>Image 5 - </u></b>
+                        <img id= "img5" src="scale.jpg" class="normal_img">
+                    </li>
+                    
+                    <h4>Output of <b>WOLFRAM</b>
+                        <span id="wolfram"> Microsoft Azure - scale</span>
+                    </h4>
+
+                    <h4>Output of <b> MICROSOFT AZURE </b>
+                        <span id="MobileNet">MobileNet - scale</span>
+                    </h4>
+
+                    <div class="result">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4 id= "face5">Both are the same</h4>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="col-sm-12 col-xs-12" id="final_result">
+                    <label><b><u> MICROSOFT AZURE got 1/5 correct and MobileNet got 4/5 correct. Thus MobileNet is more accurate than Wolfram</u></b></label>
+                </div>
+            </center>
+        </ol>
+    </body>
+    <script src="main.js"></script>
+</html>
